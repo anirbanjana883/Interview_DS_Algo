@@ -20,7 +20,7 @@ public:
         
         result = max(result, left + right); //What if I longest diamenter passes through left -> me -> right
         
-        return max(left, right) + 1; //But I will return max I can afford if (left -> me -> right) was not answer
+        return max(left, right) + 1; //But I will return max I can afford if (left -> me -> right) was not answe
         
     }
     
